@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-width: 40vw;
+    max-width: 40vw;
+}
+.logo{
+    border: 1px solid black;
+    min-width: 60vw;
+    max-height: 20vw;
+}
+
+input{
+    margin-top: 2vw;
+    border: 3px solid black;
+
+}
+
+.search{
+    margin-top: 1.5vw;
+    border: 1.5px solid black
+
+}
+
+.random{
+    margin-top: 1.5vw;
+    border: 1.5px solid black
+
+}
+.list{
+    list-style-type: none
+}
+.output{
+    min-width: 60vw;
+
+}
